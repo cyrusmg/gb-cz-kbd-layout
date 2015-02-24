@@ -2637,6 +2637,12 @@
             <description>Czech (US Dvorak with CZ UCW support)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>gb-accute</name>
+            <description>Czech (GB with accute)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

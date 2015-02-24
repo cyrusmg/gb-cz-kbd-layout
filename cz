@@ -177,6 +177,27 @@ xkb_symbols "dvorak-ucw" {
     include "level3(ralt_switch)"
 };
 
+xkb_symbols "gb-accute" {
+
+    include "gb(basic)"
+
+    name[Group1]= "Czech (GB with accute)";
+
+    key <AE02> { [ ecaron,      quotedbl,    2,          dead_caron ] };
+    key <AE03> { [ scaron,      sterling,    3,          dead_circumflex ] };
+    key <AE04> { [ ccaron,      dollar,      4,          dead_breve ] };
+    key <AE05> { [ rcaron,      percent,     5,          dead_abovering ] };
+    key <AE06> { [ zcaron,      asciicircum, 6,          dead_ogonek ] };
+    key <AE07> { [ yacute,      ampersand,   7,          dead_grave ] };
+    key <AE08> { [ aacute,      asterisk,    8,          dead_abovedot] };
+    key <AE09> { [ iacute,      parenleft,   9,          dead_acute ] };
+    key <AE10> { [ eacute,      parenright,  0,          dead_acute ] };
+    key <AE12> { [ equal,       plus,        dead_acute, dead_caron ] };
+    key <AD11> { [ bracketleft, braceleft,   uacute,     slash ] };
+    key <AC10> { [ semicolon,   colon,       uring,      quotedbl ] };
+
+};
+
 // EXTRAS:
 
 partial alphanumeric_keys
