@@ -183,6 +183,7 @@ xkb_symbols "gb-accute" {
 
     name[Group1]= "Czech (GB with accute)";
 
+    key <AE01> { [ dcaron,      exclam,      1,          dead_caron ] };
     key <AE02> { [ ecaron,      quotedbl,    2,          dead_caron ] };
     key <AE03> { [ scaron,      sterling,    3,          dead_circumflex ] };
     key <AE04> { [ ccaron,      dollar,      4,          dead_breve ] };
