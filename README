@@ -5,5 +5,11 @@ This change was done for Ubuntu 14.10
 --------
 To apply changes:
 
-Copy cz to /usr/share/X11/xkb/symbols/
-Copy base.xml and evdev.xml to cd /usr/share/X11/xkb/rules
+1. Copy cz to /usr/share/X11/xkb/symbols/
+    sudo cp cz /usr/share/X11/xkb/symbols/
+2. Copy base.xml and evdev.xml to /usr/share/X11/xkb/rules
+    sudo cp base.xml evdev.xml /usr/share/X11/xkb/rules
+3. Delete *.xkm from /var/lib/xkb to reset precompiled keyboard layouts
+    sudo rm /var/lib/xkb/*.xkm
+4. Restart lightdm
+    sudo restart lightdm
