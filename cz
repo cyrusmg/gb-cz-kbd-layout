@@ -197,6 +197,11 @@ xkb_symbols "gb-accute" {
     key <AD11> { [ bracketleft, braceleft,   uacute,     slash ] };
     key <AC10> { [ semicolon,   colon,       uring,      quotedbl ] };
 
+    key <AB06> { [ n,           N,           nacute,     Nacute ] };
+    key <AD05> { [ t,           T,           tcaron,     Tcaron ] };
+    key <AD07> { [ u,           U,           uacute,     Uacute ] };
+    key <AD09> { [ o,           O,           oacute,     Oacute ] };
+
 };
 
 // EXTRAS:

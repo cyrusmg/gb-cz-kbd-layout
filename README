@@ -1,5 +1,6 @@
 GB keyboard with Czech accents.
 2345667890 were changed to ěščřžýáíé, = with modificator is ´, with two modificators it is ˇ, ; with modificator is ů
+Also modificator + any of [n, t, u, o] will write equivalent [ň, ť, ú, ó]
 
 This change was done for Ubuntu 14.10
 --------
