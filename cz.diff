@@ -1,0 +1,36 @@
+--- cz	2016-03-06 07:16:22.000000000 +0000
++++ cz	2016-03-06 16:50:51.000000000 +0000
+@@ -68,6 +68,33 @@
+     include "level3(ralt_switch)"
+ };
+ 
++xkb_symbols "gb-accute" {
++
++    include "gb(basic)"
++
++    name[Group1]= "Czech (GB with accute)";
++
++    key <AE01> { [ dcaron,      exclam,      1,          dead_caron ] };
++    key <AE02> { [ ecaron,      quotedbl,    2,          dead_caron ] };
++    key <AE03> { [ scaron,      sterling,    3,          dead_circumflex ] };
++    key <AE04> { [ ccaron,      dollar,      4,          dead_breve ] };
++    key <AE05> { [ rcaron,      percent,     5,          dead_abovering ] };
++    key <AE06> { [ zcaron,      asciicircum, 6,          dead_ogonek ] };
++    key <AE07> { [ yacute,      ampersand,   7,          dead_grave ] };
++    key <AE08> { [ aacute,      asterisk,    8,          dead_abovedot] };
++    key <AE09> { [ iacute,      parenleft,   9,          dead_acute ] };
++    key <AE10> { [ eacute,      parenright,  0,          dead_acute ] };
++    key <AE12> { [ equal,       plus,        dead_acute, dead_caron ] };
++    key <AD11> { [ bracketleft, braceleft,   uacute,     slash ] };
++    key <AC10> { [ semicolon,   colon,       uring,      quotedbl ] };
++
++    key <AB06> { [ n,           N,           ncaron,     Ncaron ] };
++    key <AC03> { [ d,           D,           dcaron,     Dcaron ] };
++    key <AD05> { [ t,           T,           tcaron,     Tcaron ] };
++    key <AD07> { [ u,           U,           uacute,     Uacute ] };
++    key <AD09> { [ o,           O,           oacute,     Oacute ] };
++};
++
+ xkb_symbols "bksl" {
+ 
+     // Use <BKSL> instead of <LSGT> (useful for keyboards without <LSGT> key).

@@ -2,15 +2,8 @@ GB keyboard with Czech accents.
 2345667890 were changed to ěščřžýáíé, = with modificator is ´, with two modificators it is ˇ, ; with modificator is ů
 Also modificator + any of [n, t, u, o] will write equivalent [ň, ť, ú, ó]
 
-This change was done for Ubuntu 14.10
+This change was done for Arch Linux (03/2016)
 --------
-To apply changes:
+To apply patch changes to `cz` in `/usr/share/X11/xkb/symbols/` and `base.xml` and `evdev.xml` in `/usr/share/X11/xkb/rules`
 
-1. Copy cz to /usr/share/X11/xkb/symbols/
-    sudo cp cz /usr/share/X11/xkb/symbols/
-2. Copy base.xml and evdev.xml to /usr/share/X11/xkb/rules
-    sudo cp base.xml evdev.xml /usr/share/X11/xkb/rules
-3. Delete *.xkm from /var/lib/xkb to reset precompiled keyboard layouts
-    sudo rm /var/lib/xkb/*.xkm
-4. Restart lightdm
-    sudo restart lightdm
+(or use provided `patch.sh` to autoapply - WARNING: it's just a one-off script - probably doesn't work very well)

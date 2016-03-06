@@ -1,0 +1,15 @@
+--- evdev.xml	2016-03-06 07:16:22.000000000 +0000
++++ evdev.xml	2016-03-06 16:55:00.000000000 +0000
+@@ -2708,6 +2708,12 @@
+         </variant>
+         <variant>
+           <configItem>
++            <name>gb-accute</name>
++            <description>Czech (GB with accute)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>rus</name>
+             
+             <shortDescription>ru</shortDescription>
