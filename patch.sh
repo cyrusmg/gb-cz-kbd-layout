@@ -12,3 +12,5 @@ cp evdev.xml evdev.xml.bck
 patch base.xml -i $WORK_DIR/base.diff
 patch evdev.xml -i $WORK_DIR/evdev.diff
 popd
+
+sudo cp 00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
