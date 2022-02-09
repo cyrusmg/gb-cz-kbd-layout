@@ -1,6 +1,6 @@
 --- cz	2016-03-06 07:16:22.000000000 +0000
 +++ cz	2016-03-06 16:50:51.000000000 +0000
-@@ -68,6 +68,33 @@
+@@ -68,6 +68,34 @@
      include "level3(ralt_switch)"
  };
  
@@ -29,6 +29,7 @@
 +    key <AD05> { [ t,           T,           tcaron,     Tcaron ] };
 +    key <AD07> { [ u,           U,           uacute,     Uacute ] };
 +    key <AD09> { [ o,           O,           oacute,     Oacute ] };
++    key <AB10> { [slash,        question,    questiondown, exclamdown ] };
 +};
 +
  xkb_symbols "bksl" {
