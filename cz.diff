@@ -1,9 +1,9 @@
---- cz	2016-03-06 07:16:22.000000000 +0000
-+++ cz	2016-03-06 16:50:51.000000000 +0000
-@@ -68,6 +68,34 @@
+--- cz  2022-04-13 09:46:35.098361785 +0200
++++ cz  2022-04-13 09:48:48.778055348 +0200
+@@ -67,6 +67,35 @@
      include "level3(ralt_switch)"
  };
- 
+
 +xkb_symbols "gb-accute" {
 +
 +    include "gb(basic)"
@@ -29,9 +29,10 @@
 +    key <AD05> { [ t,           T,           tcaron,     Tcaron ] };
 +    key <AD07> { [ u,           U,           uacute,     Uacute ] };
 +    key <AD09> { [ o,           O,           oacute,     Oacute ] };
-+    key <AB10> { [slash,        question,    questiondown, exclamdown ] };
++    key <AB10> { [ slash,       question,    questiondown, exclamdown ] };
++    key <AB07> { [ m,           M,           ntilde,     Ntilde ] };
 +};
 +
  xkb_symbols "bksl" {
- 
+
      // Use <BKSL> instead of <LSGT> (useful for keyboards without <LSGT> key).
